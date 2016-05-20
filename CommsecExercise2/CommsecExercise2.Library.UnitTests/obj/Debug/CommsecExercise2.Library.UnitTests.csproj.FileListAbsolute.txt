@@ -1,0 +1,11 @@
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\CommsecExercise2.Library.UnitTests.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\CommsecExercise2.Library.UnitTests.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\CommsecExercise2.Library.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\Moq.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\MoviesLibrary.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\CommsecExercise2.Library.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\bin\Debug\Moq.xml
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\obj\Debug\CommsecExercise2.Library.UnitTests.csprojResolveAssemblyReference.cache
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\obj\Debug\CommsecExercise2.Library.UnitTests.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.UnitTests\obj\Debug\CommsecExercise2.Library.UnitTests.pdb

@@ -1,0 +1,6 @@
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\bin\Debug\CommsecExercise2.Library.dll.config
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\bin\Debug\CommsecExercise2.Library.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\bin\Debug\CommsecExercise2.Library.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\bin\Debug\MoviesLibrary.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\obj\Debug\CommsecExercise2.Library.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library\obj\Debug\CommsecExercise2.Library.pdb

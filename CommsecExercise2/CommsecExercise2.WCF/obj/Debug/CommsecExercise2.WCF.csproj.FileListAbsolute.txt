@@ -1,0 +1,9 @@
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\CommsecExercise2.WCF.dll.config
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\CommsecExercise2.WCF.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\CommsecExercise2.WCF.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\CommsecExercise2.Library.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\MoviesLibrary.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\bin\CommsecExercise2.Library.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\obj\Debug\CommsecExercise2.WCF.csprojResolveAssemblyReference.cache
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\obj\Debug\CommsecExercise2.WCF.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.WCF\obj\Debug\CommsecExercise2.WCF.pdb

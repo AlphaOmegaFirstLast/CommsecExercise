@@ -1,0 +1,59 @@
+﻿<div class="panel">
+    <h5>Code structure</h5>
+    <h5>WCF Class Library (.dll) </h5>
+    <h5>WCF Web Service </h5>
+    <h5>Web Api CommsecExercise2.WCF and works as a WCF client and has been introduced only for the purpose of providing a simple UI for manual testing
+</h5>
+</div>
+<div>
+    <table class="table table-hover table-striped input-sm">
+        <thead>
+            <tr class="myGradient">
+                <th class="col-xs-2">Method</th>
+                <th class="col-xs-9">Parameters</th>
+                <th class="col-xs-1">Execute</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="active">
+                <td>Movie/Get</td>
+                <td><input type="text" class="form-control input-sm" value='' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Get'></td>
+            </tr>
+            <tr class="success">
+                <td>Movie/GetById</td>
+                <td><input type="text" class="form-control input-sm" value='/1' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Get'></td>
+            </tr>
+            <tr class="active">
+                <td>Movie/GetSorted</td>
+                <td><input type="text" class="form-control input-sm" value='/title' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Get'></td>
+            </tr>
+            <tr class="success">
+                <td>Movie/Search</td>
+                <td><input type="text" class="form-control input-sm" value='/day' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Get'></td>
+            </tr>
+            <tr class="active">
+                <td>Movie/Insert</td>
+                <td><input type="text" class="form-control input-sm" value='{"_title": "The Game", "_genre": "Thriller", "_classification": "PG","_releaseDate": 1999,"_rating": 4,"_cast": ["Leonardo DiCaprio","Jack Nicholson"]}' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Post'></td>
+            </tr>
+            <tr class="success">
+                <td>Movie/Update/1</td>
+                <td><input type="text" class="form-control input-sm" value='{"_movieId":1 , "_title": "The Game Updated", "_genre": "Thriller", "_classification": "PG","_releaseDate": 1999,"_rating": 4,"_cast": ["Leonardo DiCaprio","Jack Nicholson"]}}' /></td>
+                <td><input type="button" class="btn btn-xs btn-block btn-info" onclick='executeTestMethod(this)' value='Put'></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+<br />
+<div class="form-group">
+    <label>Result</label>
+    <textarea id="resultPanel" style="max-width:100%" class="form-control block" rows="20"></textarea>
+</div>
+
+

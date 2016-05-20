@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MoviesLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MoviesLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="MovieData">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="_cast" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element name="_classification" nillable="true" type="xs:string" />
+      <xs:element name="_genre" nillable="true" type="xs:string" />
+      <xs:element name="_movieId" type="xs:int" />
+      <xs:element name="_rating" type="xs:int" />
+      <xs:element name="_releaseDate" type="xs:int" />
+      <xs:element name="_title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MovieData" nillable="true" type="tns:MovieData" />
+  <xs:complexType name="ArrayOfMovieData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MovieData" nillable="true" type="tns:MovieData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMovieData" nillable="true" type="tns:ArrayOfMovieData" />
+</xs:schema>

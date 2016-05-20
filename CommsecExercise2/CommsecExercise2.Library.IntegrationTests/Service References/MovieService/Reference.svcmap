@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3e569f20-15cb-459c-aa4e-d3470c3b7509" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f6318bac-bf29-4234-9787-a86d8d554640" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b3cc40f2-0266-4615-adb7-ba5a164e09b0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" />
+    <MetadataFile FileName="MoviesLibrary.xsd" MetadataType="Schema" ID="d1d89814-e1cd-46ff-809f-9484c8d4fcf9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="aaaceb0e-99ab-46dc-b3a1-724910e12d06" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="6986dd55-24b2-4139-9c40-154ff0fe2394" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CommsecExercise2.Library/MovieService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

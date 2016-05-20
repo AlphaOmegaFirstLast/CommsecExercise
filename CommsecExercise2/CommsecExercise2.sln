@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommsecExercise2.Library", "CommsecExercise2.Library\CommsecExercise2.Library.csproj", "{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommsecExercise2.WCF", "CommsecExercise2.WCF\CommsecExercise2.WCF.csproj", "{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommsecExercise2.WebApi", "CommsecExercise2.WebApi\CommsecExercise2.WebApi.csproj", "{1E3DA6B2-8C2D-49EA-90DC-64BD549A1AFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00} = {7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428} = {52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommsecExercise2.Library.IntegrationTests", "CommsecExercise2.Library.IntegrationTests\CommsecExercise2.Library.IntegrationTests.csproj", "{4B098D4F-CB3B-44B8-B871-AEE6111E2840}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428} = {52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommsecExercise2.Library.UnitTests", "CommsecExercise2.Library.UnitTests\CommsecExercise2.Library.UnitTests.csproj", "{5A0A4F8A-A573-4FAE-AF65-73D1F002615E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D9E1FA-F2D7-4805-AADB-8EAFA8FF3428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5BF514-0BB2-4C8E-9B4E-2740C5D95E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3DA6B2-8C2D-49EA-90DC-64BD549A1AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3DA6B2-8C2D-49EA-90DC-64BD549A1AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3DA6B2-8C2D-49EA-90DC-64BD549A1AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3DA6B2-8C2D-49EA-90DC-64BD549A1AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B098D4F-CB3B-44B8-B871-AEE6111E2840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B098D4F-CB3B-44B8-B871-AEE6111E2840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B098D4F-CB3B-44B8-B871-AEE6111E2840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B098D4F-CB3B-44B8-B871-AEE6111E2840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0A4F8A-A573-4FAE-AF65-73D1F002615E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0A4F8A-A573-4FAE-AF65-73D1F002615E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0A4F8A-A573-4FAE-AF65-73D1F002615E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0A4F8A-A573-4FAE-AF65-73D1F002615E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

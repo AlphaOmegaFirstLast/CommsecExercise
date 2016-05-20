@@ -1,0 +1,6 @@
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\bin\Debug\CommsecExercise2.Library.IntegrationTests.dll.config
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\bin\Debug\CommsecExercise2.Library.IntegrationTests.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\bin\Debug\CommsecExercise2.Library.IntegrationTests.pdb
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\obj\Debug\CommsecExercise2.Library.IntegrationTests.dll
+C:\GitHub\CommsecExercise\CommsecExercise2\CommsecExercise2.Library.IntegrationTests\obj\Debug\CommsecExercise2.Library.IntegrationTests.pdb
